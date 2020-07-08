@@ -9,8 +9,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 
 import com.appium.bdd.learnpython.activities.LoginActivity;
 
