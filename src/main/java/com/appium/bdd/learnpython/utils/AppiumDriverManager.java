@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.events.EventFiringWebDriverFactory;
+//import io.appium.java_client.events.EventFiringWebDriverFactory;
 
 public class AppiumDriverManager {
 	
@@ -37,8 +37,8 @@ public class AppiumDriverManager {
 			URL url = new URL(ConfigManager.getURL());
 			driver = new AppiumDriver<MobileElement>(url, cap);
 			
-			AppiumDriver<MobileElement> mydriver = EventFiringWebDriverFactory.getEventFiringWebDriver(driver, new EventHandler());
-			driver = mydriver;
+			/*AppiumDriver<MobileElement> mydriver = EventFiringWebDriverFactory.getEventFiringWebDriver(driver, new EventHandler());
+			driver = mydriver; */
 			driver.switchTo().alert().dismiss();
 			
 			//driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
