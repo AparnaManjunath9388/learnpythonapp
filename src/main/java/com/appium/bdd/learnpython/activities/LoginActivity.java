@@ -2,8 +2,6 @@ package com.appium.bdd.learnpython.activities;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.android.AndroidElement;
 
 public class LoginActivity extends BaseActivity {
 
